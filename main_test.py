@@ -1,6 +1,9 @@
 import pytest
 import requests
 
+#
+# Просто пример теста
+#
 def test_update_pet_data(base_url, update_pet_data):
     update_pet = requests.put(f'{base_url}/pet', json=update_pet_data)
 
@@ -11,7 +14,9 @@ def test_update_pet_data(base_url, update_pet_data):
     print('Headers: ' + str(update_pet.headers))
     assert update_pet.headers['Content-Type'] == 'application/json'
 
-
+#
+# Тест Татьяны
+#
 @pytest.mark.regression
 def test_pet_operations(base_url, pet_id):
 
@@ -40,6 +45,9 @@ def test_pet_operations(base_url, pet_id):
     print(update_pet.headers)
     assert update_pet.headers['Content-Type'] == 'application/json'
 
+#
+# Тест Татьяны 
+#
 def test2():
     print("second test")
     
