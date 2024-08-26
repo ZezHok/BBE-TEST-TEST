@@ -1,0 +1,9 @@
+
+Test of create pet
+Text: {"id":44488386,"category":{"id":0,"name":"string"},"name":"Peeesik","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+Status: 200
+
+Update pet data
+Text: {"id":44488386,"category":{"id":0,"name":"string"},"name":"Peeesik","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"booked"}
+Status: 200
+Headers: {'Date': 'Mon, 26 Aug 2024 21:02:02 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
