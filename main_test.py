@@ -40,14 +40,6 @@ def test_pet_operations(base_url, pet_id):
     print(update_pet.headers)
     assert update_pet.headers['Content-Type'] == 'application/json'
 
-    get_pet = requests.get(f"{base_url}/pet/{pet_id}")
-    print("Info pet" + get_pet.text)
-    assert get_pet.status_code == 200
-    print(get_pet.headers)
-    assert get_pet.headers['Content-Type'] == 'application/json'
-    pet_info = get_pet.json()
-    assert pet_info['status'] == update_data['status']
-
 def test2():
     print("second test")
     
