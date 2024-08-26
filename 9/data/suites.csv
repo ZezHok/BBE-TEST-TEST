@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Aug 26 21:25:37 GMT 2024","Mon Aug 26 21:25:37 GMT 2024","0","","main_test","","","","test_id[456]",""
+"failed","Mon Aug 26 21:25:37 GMT 2024","Mon Aug 26 21:25:37 GMT 2024","0","","main_test","","","","test_id[432]",""
+"passed","Mon Aug 26 21:25:37 GMT 2024","Mon Aug 26 21:25:37 GMT 2024","0","","main_test","","","","test2",""
+"passed","Mon Aug 26 21:25:36 GMT 2024","Mon Aug 26 21:25:36 GMT 2024","342","","main_test","","","","test_update_pet_data",""
+"failed","Mon Aug 26 21:25:37 GMT 2024","Mon Aug 26 21:25:37 GMT 2024","0","","main_test","","","","test_id[123]",""
+"passed","Mon Aug 26 21:25:36 GMT 2024","Mon Aug 26 21:25:37 GMT 2024","1442","","main_test","","","","test_pet_operations",""

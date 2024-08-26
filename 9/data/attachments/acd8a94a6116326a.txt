@@ -1,0 +1,4 @@
+
+Delete pet
+Text:
+Status: 404
