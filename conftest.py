@@ -1,5 +1,6 @@
 import pytest
 import requests
+import random
 
 
 @pytest.fixture(scope="session", autouse=True)
@@ -10,7 +11,7 @@ def base_url():
 
 @pytest.fixture(scope="session", autouse=True)
 def pet_id():
-    pet_id = 123454321
+    pet_id = random.randint(1, 123454321)
     return pet_id
 
 
