@@ -1,5 +1,7 @@
 import pytest
 import requests
+import jsonschema
+from jsonschema import validate
 
 #
 # Просто пример теста
